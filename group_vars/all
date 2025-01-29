@@ -5,7 +5,7 @@ ispmail_populate_test_data: true
 ### If you do not set the domain below then this playbook will
 ### determine your public IP address and create a certificate for
 ### ip.ad.dre.ess.nip.io. So by default you will get a working setup.
-ispmail_fqdn: mail.workaround.org
+ispmail_fqdn: webmail.workaround.org
 
 # Domain for the mail addresses
 ispmail_domain : workaround.org
