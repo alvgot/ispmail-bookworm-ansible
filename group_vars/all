@@ -5,10 +5,10 @@ ispmail_populate_test_data: true
 ### If you do not set the domain below then this playbook will
 ### determine your public IP address and create a certificate for
 ### ip.ad.dre.ess.nip.io. So by default you will get a working setup.
-ispmail_fqdn: bookworm.workaround.org
+ispmail_fqdn: mail.workaround.org
 
 # Domain for the mail addresses
-ispmail_domain : bookworm.workaround.org
+ispmail_domain : workaround.org
 
 # DKIM selector for the domain. Must be all numeric but anything will do. Today's date is fine
 ispmail_dkim_selector : 20230619
