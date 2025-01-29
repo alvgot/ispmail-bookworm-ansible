@@ -51,4 +51,4 @@ certbot_certs:
   - email: "postmaster@{{ispmail_domain}}"
     webroot: "/var/www/{{ispmail_fqdn}}"
     domains:
-      - "{{ispmail_domain}}"
+      - "{{ispmail_fqdn}}"
